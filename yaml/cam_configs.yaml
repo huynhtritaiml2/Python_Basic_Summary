@@ -1,0 +1,14 @@
+settings:
+  classes: ['motorcycle', 'car', 'bus', 'truck']
+  size: [1280,720]
+  checkpoint: "./models/deepsort/deep/checkpoint/ckpt.t7"
+  cam:
+    cam_01: 
+      video: './cam_01.mp4'
+      boxes: './boxes/cam_01'
+      zone: './cam_01.json'
+      tracking_config:
+        MAX_DIST: 0.3
+        MIN_CONFIDENCE: 0.5
+
+    
